@@ -16,7 +16,7 @@ body {
 header {
     background: #ebebeb;
     padding: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 10px;
 }
 
@@ -26,31 +26,55 @@ nav {
     margin-bottom: 20px;
 }
 
+
+
 section {
     background: #ebebeb;
     padding: 20px;
+    float: left;
+    border: thin solid;
+    width: 65%;
     margin-bottom: 20px;
+    
 }
 
 article {
     background-color: #777;
     color: #ebebeb;
-    padding: 60px;
-    margin-bottom: 0px;
-   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
-header1 {
+head {
     background-color: #ebebeb;
     color: #777777;
-    padding: 20px;
+    padding: 10px;
     
 }
 
 p {
     background-color: #ebebeb;
+    padding: 10px;
+    color: #777;
+}
+
+.aside {
+    Flex: 50%;
+    Text-align:center;
+    padding: 10px;
+    background-color: #ebebeb;
+    color: #777;
+    padding: 120px;
+    float: right;
+    margin-bottom: 10px;
+    height: 242px;
 }
 
 footer {
+    clear: both;
     background-color: #ebebeb;
+    color: #777;
+    padding: 30px;
+    margin-bottom: 40px;
 }
