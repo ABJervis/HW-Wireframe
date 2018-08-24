@@ -59,6 +59,12 @@ head {
     
 }
 
+h1 {
+    background-color: #ebebeb;
+    padding: 10px;
+    color: #777;
+}
+
 p {
     background-color: #ebebeb;
     padding: 10px;
